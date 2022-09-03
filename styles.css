@@ -206,19 +206,18 @@ p{
     width: 100%;
     margin: 30px auto 20px auto;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 
 }
 
 .profile-picture{
-    margin-top: 0px;
-    width: calc(min(90px + 4vw, 150px));
+    width: calc(min(90px + 4vw, 160px));
     border-radius: 100%;
     border: 5px solid var(--highlight-salmon);
 }
 
 .about-me-footer h3{
-    font-size: calc(min(15px + 1vw,24px));
+    font-size: calc(min(15px + 1vw,27px));
     font-weight: 200;
     color: var(--primary-gray)
 }
@@ -228,16 +227,44 @@ p{
 
 }
 
-ul{
+.list-container ul{
     font-family: 'Roboto', sans-serif;
     font-size: calc(min(5px + 2vw,23px));
     color: var(--primary-gray);
     font-weight: 350;
-    margin-top: 15px;
-    margin-left: 40px;
+    list-style: none;
 }
 
+.list-container li{
+    margin: 15px;
+    width: 130px;
+    padding: 6px;
+    border-style: solid;
+    border-color: var(--highlight-green);
+    border-width: 2.5px;
+    border-radius: 5px;
+}
 
+.image-container{
+    margin-top: 15px;
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.my-interest-section{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    text-align: center;
+}
+
+.list-container{
+    display: flex;
+    margin-top: 15px;
+    justify-content: space-around;
+}
 
 
 
