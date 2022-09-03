@@ -11,6 +11,7 @@
     --secondary-gray: #949DC7;
     --highlight-green: #DBFF36;
     --highlight-salmon: #F8938B;
+    --lighter-salmon:#ffaea9;
 }
 
 html,body{ margin:0; padding:0; height:100%; width:100%;
@@ -201,33 +202,40 @@ p{
 
 
 .about-me-footer{
-    width: 90%;
-    margin: 0 auto;
-    margin-top: 5px;
+
+    width: 100%;
+    margin: 30px auto 20px auto;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 
 }
 
 .profile-picture{
-    margin-top: 30px;
-    width: calc(min(90px + 4vw, 190px));
-    border-radius: 50%;
+    margin-top: 0px;
+    width: calc(min(90px + 4vw, 150px));
+    border-radius: 100%;
     border: 5px solid var(--highlight-salmon);
-    float: right;
 }
 
 .about-me-footer h3{
-
-    font-size: calc(min(5px + 2vw,24px));
-    font-weight: 400;
-    color: var(--highlight-salmon);
+    font-size: calc(min(15px + 1vw,24px));
+    font-weight: 200;
+    color: var(--primary-gray)
 }
 
+.about-me-frame span{
+    color: var(--highlight-salmon);
 
+}
 
-
-
+ul{
+    font-family: 'Roboto', sans-serif;
+    font-size: calc(min(5px + 2vw,23px));
+    color: var(--primary-gray);
+    font-weight: 350;
+    margin-top: 15px;
+    margin-left: 40px;
+}
 
 
 
