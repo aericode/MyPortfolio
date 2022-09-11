@@ -217,7 +217,7 @@ p{
 }
 
 .about-me-footer h3{
-    font-size: calc(min(18px + 1vw,27px));
+    font-size: calc(min(18px + 1vw,24px));
     font-weight: 200;
     color: var(--primary-gray)
 }
@@ -229,7 +229,6 @@ p{
 
 .list-container ul{
     font-family: 'Roboto', sans-serif;
-    font-size: calc(min(5px + 2vw,23px));
     color: var(--primary-gray);
     font-weight: 350;
     list-style: none;
@@ -244,18 +243,21 @@ p{
     border-width: 2.5px;
     border-radius: 5px;
 
+
+    
+    font-size: calc(min(15px + 2vw,23px));
 }
 
 .image-container{
     margin-top: 15px;
-    width: 30%;
+    width: 40%;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
 .profile-picture{
-    width: calc(min(140px + 0.5vw, 180px));
+    width: 160px;
     border-radius: 10px;
     border: 5px solid var(--highlight-salmon);
 }
@@ -263,7 +265,7 @@ p{
 .my-interest-section{
     display: flex;
     flex-direction: column;
-    width: 60%;
+    width: 50%;
     text-align: center;
 }
 
@@ -273,26 +275,10 @@ p{
     justify-content: space-around;
 }
 
-@media (max-width: 768px){
-    .title-container{
-        width: 100%;
-    }
-
-    .frame{
-        border-style: solid;
-        border-color: var(--primary-gray);
-        border-width: 2.5px;
-        border-radius: 0px;
-
-        border-left: none;
-        border-right: none;
-        border-bottom: none;
-    }
-
-}
 
 
-@media (max-width: 1200px){
+/*desktop*/
+@media (min-width: 1200px){
     .title-container{
         width: 70%;
     }
@@ -319,6 +305,33 @@ p{
     .profile-picture{
         width: calc(min(200px + 0.5vw, 280px));
     }
+}
+
+/*mobile*/
+@media (max-width: 768px){
+    .section{
+        width: 100%;
+    }
+
+    .title-container{
+        width: 100%; 
+    }
+
+
+    .frame{
+        width: 100%;
+        
+
+        border-style: solid;
+        border-color: var(--primary-gray);
+        border-width: 2.5px;
+        border-radius: 0px;
+
+        border-left: none;
+        border-right: none;
+        border-bottom: none;
+    }
+
 }
 
 
