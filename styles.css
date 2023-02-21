@@ -104,6 +104,11 @@ p{
     color: var(--secondary-gray);
 }
 
+.social-links i:hover{    
+    color: var(--primary-gray);
+}
+
+
 
 /*desktop*/
 @media (min-width: 768px){
@@ -127,9 +132,6 @@ p{
 
     }
 
-    .social-links i:hover{    
-        color: var(--primary-gray);
-    }
 
     .main-frame{
         margin-top: 5vh;
@@ -258,9 +260,10 @@ p{
 }
 
 .profile-picture{
+    margin-top: 30px;
     width: 160px;
     border-radius: 10px;
-    border: 5px solid var(--highlight-salmon);
+    border: 5px solid var(--secondary-purple);
 }
 
 .my-interest-section{
@@ -302,6 +305,17 @@ p{
         border-left: none;
         border-right: none;
         border-bottom: none;
+    }
+
+    .about-me-footer{
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .profile-picture{
+        width: 150%;
     }
 
 }
