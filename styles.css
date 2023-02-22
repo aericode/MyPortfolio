@@ -382,6 +382,11 @@ p{
     font-size: 26px;
 }
 
+.timeline-container span{
+    color: var(--highlight-salmon);
+
+}
+
 
 
 
