@@ -26,7 +26,9 @@ html,body{ margin:0; padding:0; height:100%; width:100%;
     display: flex;
     align-items: center;
 
-
+    
+    margin-bottom: 40px;
+    
 }
 
 .main-container{
@@ -333,8 +335,11 @@ p{
 
 
 
+
+
 /*desktop*/
 @media (min-width: 1200px){
+
     .title-container{
         width: 70%;
     }
@@ -361,6 +366,15 @@ p{
         width: 280px;
     }
 }
+
+
+/*desktop big*/
+@media (min-width: 1500px){
+    .section{
+        margin-bottom: 0px;
+    }
+}
+
 
 
 .timeline-container h3{
